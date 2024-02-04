@@ -1,0 +1,17 @@
+* C:\Users\David\OneDrive - The University of Nottingham\Modules\EEEE4008\Simulation\SPICE Demo\DoublePulseTest.asc
+V1 Vdrive 0 PWL(0 0 1u 0 1.001u 5 5.6u 5 5.6001u 0 7u 0 7.001u 5 8u 5 8.001u 0)
+M1 Vd Vg Vs Vs 2N7002
+D1 Vd Vdc D
+L1 Vd Vdc 220µ
+L2 Vs 0 {Ls}
+R1 Vg Vdrive {Rg}
+Vsupply Vdc 0 {Vdc}
+.model D D
+.lib D:\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NMOS NMOS
+.model PMOS PMOS
+.lib D:\Documents\LTspiceXVII\lib\cmp\standard.mos
+.param Rg=1.000000E+02 Ls=1.000000E-07 Vdc=24
+.tran 10u
+.backanno
+.end
