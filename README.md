@@ -29,8 +29,11 @@ This script is very slow and strictly **serial**. The main timewaster is opening
 ## Authorship
 
 ### LTspice2Matlab
- - Paul Wagner
- - Peter Feichtinger
+ - Copyright (c) 2009, Paul Wagner
+ - Copyright (c) 2019, Peter Feichtinger
+ - Source available on GitHub: https://github.com/PeterFeicht/ltspice2matlab
+
  
 ### Everything else
- - David Way, used in final year project as part of MEng Electronic and Electrical Engineering degree
+ - Copyright (c) 2024, David Way
+ - Used in final year project as part of MEng Electronic and Electrical Engineering degree
